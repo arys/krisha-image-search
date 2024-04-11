@@ -73,7 +73,7 @@ export function SearchPage() {
               alt={apartment.title}
               className="object-cover w-full h-48 rounded-t-lg"
               height={300}
-              src={`http://195.49.210.229:3005/images/${apartment.external_id}.jpg`}
+              src={`/images/${apartment.external_id}.jpg`}
               style={{
                 aspectRatio: "400/300",
                 objectFit: "cover",
